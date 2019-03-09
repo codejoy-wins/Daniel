@@ -37,9 +37,24 @@ function Image({data}){
 }
 
 function Intro(){
+
   return (
     <div style={MySty2}>
-      <h1 onClick={()=>Funk()}>Daniel Dannas</h1>
+      <h1 onClick={()=>Funk()}>
+      <span className="silver">D</span>
+      <span className="silver">a</span>
+      <span className="silver">n</span>
+      <span className="silver">i</span>
+      <span className="silver">e</span>
+      <span className="silver">l </span>
+
+      <span className="silver">D</span>
+      <span className="silver">a</span>
+      <span className="silver">n</span>
+      <span className="silver">n</span>
+      <span className="silver">a</span>
+      <span className="silver">s</span>
+      </h1>
       <h2 id="output"></h2>
     </div>
   )
@@ -53,7 +68,7 @@ function Footer(){
   return (
     <div style={MySty2}>
       <h2>Contact Agent: 805 862 7047</h2>
-      <h4>Made by <a href="https://maxjann.com">Jann Software</a></h4>
+      <h4>Made by <a href="https://maxjann.com" className="silver">Jann Software</a></h4>
     </div>
   )
 }

@@ -32,3 +32,13 @@
     transform: rotate(360deg);
   }
 }
+.silver{
+  color:silver;
+}
+.silver:hover{
+  color:gold;
+}
+
+a{
+  text-decoration: none;
+}
