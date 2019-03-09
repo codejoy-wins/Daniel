@@ -8,7 +8,6 @@ import d6 from "./imgs/d6.jpg";
 import d7 from "./imgs/d7.jpeg";
 import d8 from "./imgs/d8.jpeg";
 
-
 import './App.css';
 
 const MySty = {
@@ -97,5 +96,4 @@ function App(){
     </div>
   )
 }
-
 export default App;
