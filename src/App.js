@@ -4,26 +4,41 @@ import d1 from "./imgs/dan.jpg";
 import d3 from "./imgs/daniel2.png";
 import d4 from "./imgs/dn.jpg";
 import d5 from "./imgs/danny.jpg";
+import d6 from "./imgs/d6.jpg";
+import d7 from "./imgs/d7.jpeg";
+import d8 from "./imgs/d8.jpeg";
+
 
 import './App.css';
 
 const MySty = {
-  "background": "green",
+  "background": "gray",
   "padding": "1vw",
-  "width": "60%",
+  "width": "100%",
+}
+
+const MySty2 = {
+  "background": "black",
+  "color": "silver",
+  "padding": "1vw",
+  "width": "100%",
+}
+
+const restrict = {
+  "width": "100%",
 }
 
 function Image({data}){
   return (
-    <div>
-      <img src={data}></img>
+    <div style={MySty}>
+      <img src={data} style={restrict}></img>
     </div>
   )
 }
 
 function Intro(){
   return (
-    <div>
+    <div style={MySty2}>
       <h1 onClick={()=>Funk()}>Daniel Dannas</h1>
       <h2 id="output"></h2>
     </div>
@@ -36,7 +51,7 @@ function Funk(){
 
 function Footer(){
   return (
-    <div>
+    <div style={MySty2}>
       <h2>Contact Agent: 805 862 7047</h2>
       <h4>Made by <a href="https://maxjann.com">Jann Software</a></h4>
     </div>
@@ -51,12 +66,15 @@ function App(){
   return (
     <div className="App">
       < Intro />
-      < Image data={d2} />
-      {/* < Image data={d1} /> */}
-      < Image data={d4} />
-      {/* < Image data={d5} /> */}
       < Image data={d3} />
-      < Footer />
+      {/* <a href="spot">Contact</a> */}
+      < Image data={d5} />
+      < Image data={d6} />
+      < Image data={d1} />
+      < Image data={d8} />
+      < Image data={d2} />
+      < Image data={d3} />
+      < Footer id="spot"/>
     </div>
   )
 }
