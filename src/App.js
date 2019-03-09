@@ -14,6 +14,8 @@ import './App.css';
 const MySty = {
   "background": "gray",
   "padding": "1vw",
+  "padding-left": 0,
+  "padding-right": 0,
   "width": "100%",
 }
 
@@ -21,6 +23,8 @@ const MySty2 = {
   "background": "black",
   "color": "silver",
   "padding": "1vw",
+  "padding-left": 0,
+  "padding-right": 0,
   "width": "100%",
 }
 
