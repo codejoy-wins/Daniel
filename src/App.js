@@ -70,7 +70,9 @@ function Funk(){
 function Footer(){
   return (
     <div style={MySty2}>
-      <h2>Contact Agent: 805 862 7047</h2>
+      <h2>Now available for auditions</h2>
+      <h2>Agency: 805 862 7047 maxwellljann@gmail.com</h2>
+
       <h4>Made by <a href="https://maxjann.com" className="silver">Jann Software</a></h4>
     </div>
   )
